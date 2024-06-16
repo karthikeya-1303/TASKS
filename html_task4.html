@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=\, initial-scale=1.0">
+    <title>Forms</title>
+    <style>
+        #form
+        {
+            padding: 10%;
+            border-radius: 5px solid black;
+        }
+        #fullname
+        {
+            padding-right: 20px;
+        }
+        #username
+        {
+            padding-right: 20px;
+        }
+        #pass
+        {
+            padding-right: 27px;
+        }
+        #repass
+        {
+            padding-right: 10px;
+        }
+        #add
+        {
+            padding-right: 37px;
+        }
+        #age
+        {
+            padding-right: 60px;
+        }
+        #gender
+        {
+            padding-right: 70px;
+        }
+    </style>
+</head>
+<body>
+    <form id="form"><center>
+        <span id="fullname">Full Name: </span><input type="text"><br><br>
+        <span id="username">UserName: </span><input type="text"><br><br>
+        <span id="pass">Password: </span><input type="password"><br><br>
+        <span id="repass">Re Password: </span><input type="password"><br><br>
+        <span id="add">Address: </span><input type="text"><br><br>
+        <span id="age">Age: </span><input type="number"><br><br>
+        <label for="gender" id="gender">Gender: </label>
+        <select name="gender" id="gender">
+            <option value="Male">Male</option>
+            <option value="Female">Female</option>
+            <option value="Other">Other</option>
+        </select><br><br>
+        <input type="submit" value="Save">
+    </center></form>
+</body>
+</html>
